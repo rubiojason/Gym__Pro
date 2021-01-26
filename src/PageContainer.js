@@ -12,20 +12,20 @@ function PageContainer(props) {
         console.log(props.pageInfo)
     }, [])
     //useEffect 
-
+    
     return (
             <BrowserRouter>
                 <Switch>
 
-                    <Redirect exact from="/" to="/home" />
+                    <Redirect exact from="/Gym-Pro" to="/Gym-Pro/home" />
                     
-                    <Route path="/about" component={AboutPage} /> 
+                    <Route path="/Gym-Pro/about" component={AboutPage} /> 
 
-                    <Route path="/home" component={HomePage} />
+                    <Route path="/Gym-Pro/home" component={HomePage} />
 
-                    <Route path="/exercise" component={ExercisePage} />
+                    <Route path="/Gym-Pro/exercise" component={ExercisePage} />
 
-                    <Route path="/join-now" component={JoinNowPage} />
+                    <Route path="/Gym-Pro/join-now" component={JoinNowPage} />
 
                 </Switch>
             </BrowserRouter>

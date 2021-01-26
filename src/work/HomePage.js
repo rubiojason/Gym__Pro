@@ -40,7 +40,7 @@ function TopOfPage() {
               height: window.innerHeight,
             });
           }
-          
+
           // Add event listener
           window.addEventListener("resize", handleResize);
           
@@ -89,7 +89,7 @@ function TopOfPage() {
                 </div>
 
                 <div className="ham-div">
-                    <Link to="/about">
+                    <Link to="/Gym-Pro/about">
                         <button className="ham-button">
                             About
                         </button>
@@ -97,7 +97,7 @@ function TopOfPage() {
                 </div>
 
                 <div className="ham-div">
-                    <Link to="/exercise">
+                    <Link to="/Gym-Pro/exercise">
                         <button className="ham-button">
                             Exercise
                         </button>
@@ -106,7 +106,7 @@ function TopOfPage() {
                 </div>
 
                 <div className="ham-div">
-                    <Link to="/join-now">
+                    <Link to="/Gym-Pro/join-now">
                         <button className="ham-button" >
                             Join Now
                         </button>
@@ -122,7 +122,7 @@ function TopOfPage() {
             <div className="background-overlay-div-home"></div>
             <nav>
                 <div className="nav-logo-container">
-                    <Link to="/home">
+                    <Link to="/Gym-Pro/home">
                         <img alt="" src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/326/4379945326_61521086-5f7b-4450-8a2f-e4263479db74.png?cb=1609798254"/>
                     </Link>
                 </div>
@@ -141,19 +141,19 @@ function TopOfPage() {
                                         Home
                                     </button>
 
-                                    <Link to="/about">
+                                    <Link to="/Gym-Pro/about">
                                         <button >
                                             About
                                         </button>
                                     </Link>
                             
-                                    <Link to="/exercise">
+                                    <Link to="/Gym-Pro/exercise">
                                         <button>
                                             Exercises
                                         </button>
                                     </Link>
                             
-                                    <Link to="/join-now">
+                                    <Link to="/Gym-Pro/join-now">
                                         <button>
                                             Join Now
                                         </button> 
@@ -177,7 +177,7 @@ function TopOfPage() {
                             and get our paid program course now.</p>
 
                         <div className="home-button-container" ref={buttonAnim}>
-                            <Link to="/join-now">
+                            <Link to="/Gym-Pro/join-now">
                                 <button className="home-page-join-button">Join Now</button>
                             </Link>
                         </div>

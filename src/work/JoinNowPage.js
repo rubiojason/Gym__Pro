@@ -79,7 +79,7 @@ function JoinNowPage() {
                 </div>
 
                 <div className="ham-div">
-                    <Link to="/home">
+                    <Link to="/Gym-Pro/home">
                         <button className="ham-button">
                             Home
                         </button>
@@ -87,7 +87,7 @@ function JoinNowPage() {
                 </div>
 
                 <div className="ham-div">
-                    <Link to="/about">
+                    <Link to="/Gym-Pro/about">
                         <button className="ham-button" >
                             About
                         </button>
@@ -95,7 +95,7 @@ function JoinNowPage() {
                 </div>
 
                 <div className="ham-div">
-                    <Link to="/exercise">
+                    <Link to="/Gym-Pro/exercise">
                         <button className="ham-button">
                             Exercise
                         </button>
@@ -104,7 +104,7 @@ function JoinNowPage() {
                 </div>
 
                 <div className="ham-div">
-                    <Link to="/join-now">
+                    <Link to="/Gym-Pro/join-now">
                         <button className="ham-button" style={{color: joinColor, WebkitTextFillColor: joinTextFill}} >
                             Join Now
                         </button>
@@ -119,7 +119,7 @@ function JoinNowPage() {
             <div className="background-overlay-div"></div>
             <nav>
                 <div className="nav-logo-container">
-                    <Link to="/home">
+                    <Link to="/Gym-Pro/home">
                         <img alt="" src="https://dewey.tailorbrands.com/production/brand_version_mockup_image/326/4379945326_61521086-5f7b-4450-8a2f-e4263479db74.png?cb=1609798254"/>
                     </Link>
                 </div>
@@ -136,25 +136,25 @@ function JoinNowPage() {
                                 : 
 
                                 <div>
-                                    <Link to="/home">
+                                    <Link to="/Gym-Pro/home">
                                         <button >
                                             Home
                                         </button>
                                     </Link>
         
-                                    <Link to="/about">
+                                    <Link to="/Gym-Pro/about">
                                         <button >
                                             About
                                         </button>
                                     </Link>
                                     
-                                    <Link to="/exercise">
+                                    <Link to="/Gym-Pro/exercise">
                                         <button >
                                             Exercises
                                         </button>
                                     </Link>
                                     
-                                    <Link to="/join-now">
+                                    <Link to="/Gym-Pro/join-now">
                                         <button style={{color: joinColor, WebkitTextFillColor: joinTextFill}}>
                                             Join Now
                                         </button> 
