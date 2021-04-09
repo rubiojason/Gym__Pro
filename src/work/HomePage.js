@@ -86,7 +86,7 @@ function TopOfPage() {
                     <button className="ham-button" style={{color: homeColor, WebkitTextFillColor: homeTextFill}} >
                         Home
                     </button>
-                </div>
+                </div> 
 
                 <div className="ham-div">
                     <Link to="/Gym-Pro/about">
