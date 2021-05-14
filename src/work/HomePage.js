@@ -129,14 +129,14 @@ function TopOfPage() {
                 <div className="nav-right-container">
                     <div className="nav-right-content">
                         {
-                            size.width <= 475 ? 
+                            size.width <= 820 ? 
                                 <div className="hamburger-container" onClick={hamburgerOpen}>
                                     <div className="hamburger-border"></div>
                                     <div className="hamburger-border"></div>
                                     <div className="hamburger-border"></div>
                                 </div>
                                 : 
-                                <div>
+                                <div id="nav-container">
                                     <button style={{color: homeColor, WebkitTextFillColor: homeTextFill}}>
                                         Home
                                     </button>

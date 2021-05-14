@@ -126,7 +126,7 @@ function JoinNowPage() {
                 <div className="nav-right-container">
                     <div className="nav-right-content">
                         {
-                            size.width <= 475 ? 
+                            size.width <= 820 ? 
                                 <div className="hamburger-container" onClick={hamburgerOpen}>
                                     <div className="hamburger-border"></div>
                                     <div className="hamburger-border"></div>
@@ -135,7 +135,7 @@ function JoinNowPage() {
 
                                 : 
 
-                                <div>
+                                <div id="nav-container">
                                     <Link to="/Gym-Pro/home">
                                         <button >
                                             Home
@@ -168,9 +168,9 @@ function JoinNowPage() {
 
             <div className="join-page-container" ref={backgroundAnim}>
                     
-                <h1 ref={h1Anim} className="join-now-h1">
+                <h2 ref={h1Anim} className="join-now-h1">
                     What are you waiting for try our plan now! 
-                </h1>
+                </h2>
 
                 <div ref={buttonAnim}>
                     <button>Join Now</button>

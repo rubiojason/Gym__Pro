@@ -113,7 +113,7 @@ function ExercisePage() {
                 <div className="nav-right-container">
                     <div className="nav-right-content">
                     {
-                        size.width <= 475 ? 
+                        size.width <= 820 ? 
                             <div className="hamburger-container" onClick={hamburgerOpen}>
                                 <div className="hamburger-border"></div>
                                 <div className="hamburger-border"></div>
@@ -122,7 +122,7 @@ function ExercisePage() {
 
                             : 
 
-                            <div>
+                            <div id="nav-container">
                             <Link to="/Gym-Pro/home">
                                 <button>
                                     Home
@@ -209,7 +209,7 @@ function ExercisePage() {
                 <div className="exercise-grid-system" style={{marginBottom: '50px'}}>
 
                     <div className="exercise-img-container">
-                        <img className="exercise-img" src="https://www.t-nation.com/system/publishing/articles/10005894/original/The-5-Most-Dangerous-Deadlift-Mistakes.jpg?1517861498" alt="" />
+                        <img className="exercise-img" src="https://cdn.muscleandstrength.com/sites/default/files/dumbbell-stiff-leg-deadlift.jpg" alt="" />
                         <div className="exercise-name-div">Dead Lift</div>
                     </div>
 

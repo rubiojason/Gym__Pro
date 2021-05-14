@@ -131,7 +131,7 @@ function AboutPage() {
                 <div className="nav-right-container">
                     <div className="nav-right-content">
                         {
-                            size.width <= 475 ? 
+                            size.width <= 820 ? 
                                 <div className="hamburger-container" onClick={hamburgerOpen}>
                                     <div className="hamburger-border"></div>
                                     <div className="hamburger-border"></div>
@@ -140,7 +140,7 @@ function AboutPage() {
 
                                 : 
 
-                                <div>
+                                <div id="nav-container">
                                     <Link to="/Gym-Pro/home">
                                         <button >
                                             Home
