@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Gym__Pro/static/css/main.43b96569.chunk.css",
+    "main.js": "/Gym__Pro/static/js/main.ce77cc6c.chunk.js",
+    "main.js.map": "/Gym__Pro/static/js/main.ce77cc6c.chunk.js.map",
+    "runtime-main.js": "/Gym__Pro/static/js/runtime-main.42f2ca9b.js",
+    "runtime-main.js.map": "/Gym__Pro/static/js/runtime-main.42f2ca9b.js.map",
+    "static/js/2.a13e99f6.chunk.js": "/Gym__Pro/static/js/2.a13e99f6.chunk.js",
+    "static/js/2.a13e99f6.chunk.js.map": "/Gym__Pro/static/js/2.a13e99f6.chunk.js.map",
+    "static/js/3.7b407ae8.chunk.js": "/Gym__Pro/static/js/3.7b407ae8.chunk.js",
+    "static/js/3.7b407ae8.chunk.js.map": "/Gym__Pro/static/js/3.7b407ae8.chunk.js.map",
+    "index.html": "/Gym__Pro/index.html",
+    "static/css/main.43b96569.chunk.css.map": "/Gym__Pro/static/css/main.43b96569.chunk.css.map",
+    "static/js/2.a13e99f6.chunk.js.LICENSE.txt": "/Gym__Pro/static/js/2.a13e99f6.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.42f2ca9b.js",
+    "static/js/2.a13e99f6.chunk.js",
+    "static/css/main.43b96569.chunk.css",
+    "static/js/main.ce77cc6c.chunk.js"
+  ]
+}
