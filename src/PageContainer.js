@@ -17,7 +17,7 @@ function PageContainer(props) {
             <BrowserRouter>
                 <Switch>
 
-                    <Redirect exact from="/Gym_Pro" to="/Gym-Pro/home" />
+                    <Redirect exact from="/Gym__Pro" to="/Gym-Pro/home" />
                     
                     <Route path="/Gym-Pro/about" component={AboutPage} /> 
 
