@@ -86,7 +86,7 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: url('https://image.freepik.com/free-vector/leather-chrome-automotive-background-black-red-metallic-background-vector-illustration_43969-1086.jpg') center center / cover no-repeat;
+  background: url('https://t3.ftcdn.net/jpg/02/44/74/44/360_F_244744420_ATNppnCCOUqMhdim2LXyxbWwYuskTjnU.jpg') center center / cover no-repeat;
   z-index: -2;
   padding-bottom: 100px;
   object-fit: contain;
@@ -105,7 +105,7 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  background: url('https://image.freepik.com/free-vector/leather-chrome-automotive-background-black-red-metallic-background-vector-illustration_43969-1086.jpg') center center / cover no-repeat;
+  background: url('https://t3.ftcdn.net/jpg/02/44/74/44/360_F_244744420_ATNppnCCOUqMhdim2LXyxbWwYuskTjnU.jpg') center center / cover no-repeat;
   z-index: -2;
   padding-bottom: 200px;
   object-fit: contain;
@@ -258,7 +258,7 @@ nav {
             width: 0px;
             z-index: -1;
             content: '';
-            border-radius: 5px; 
+            border-radius: 10px; 
             color: #000 !important;
             background: rgb(247, 80, 19);
             transition: all 0.3s cubic-bezier(0.42, 0, 0.58, 1);
@@ -369,7 +369,7 @@ nav {
           width: 0px;
           z-index: -1;
           content: '';
-          border-radius: 5px; 
+          border-radius: 10px; 
           color: #000 !important;
           background: rgb(247, 80, 19);
           transition: all 0.3s cubic-bezier(0.42, 0, 0.58, 1);
@@ -455,9 +455,9 @@ nav {
       .exercise-name-div {
         position: absolute; 
         width: 100%; 
-        height: 40px; 
+        padding: 20px 0px; 
         bottom: 0%; 
-        background-color: rgb(40, 40, 40); 
+        background-color: rgb(15, 15, 15); 
         color: rgb(255, 98, 41); 
         z-index: 2; 
         @extend .center; 
@@ -516,7 +516,7 @@ nav {
       width: 0px;
       z-index: -1;
       content: '';
-      border-radius: 5px; 
+      border-radius: 10px; 
       color: rgb(255, 98, 41) !important;
       //background: rgb(247, 80, 19);
       background: rgb(30, 30, 30); 
@@ -1213,12 +1213,22 @@ nav {
   }
 
   .exercise-page-container .exercise-grid-system {
+    width: 75%; 
     grid-template-columns: repeat(auto-fit, minmax(45%, 2fr));
+  }
+
+  .exercise-page-container .exercise-name-h1 {
+    width: 75%; 
   }
 
   .exercise-page-container .exercise-grid-system .exercise-img-container .exercise-name-div {
     font-size: 1.5em;
     height: 60px;  
+  }
+
+  .exercise-page-container .exercise-name-h1 {
+    font-size: 2.25em; 
+    margin-bottom: 25px; 
   }
 }
 
@@ -1229,12 +1239,22 @@ nav {
   }
 
   .exercise-page-container .exercise-grid-system {
+    width: 65%; 
     grid-template-columns: repeat(auto-fit, minmax(45%, 2fr));
+  }
+
+  .exercise-page-container .exercise-name-h1 {
+    width: 65%; 
   }
 
   .exercise-page-container .exercise-grid-system .exercise-img-container .exercise-name-div {
     font-size: 1.75em;
     height: 80px;  
+  }
+
+  .exercise-page-container .exercise-name-h1 {
+    font-size: 2.45em; 
+    margin-bottom: 25px; 
   }
 }
 
